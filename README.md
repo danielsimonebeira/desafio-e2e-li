@@ -11,6 +11,13 @@
 * [Maven](https://mvnrepository.com/)
 
 
+#### Preparação para rodar os teste
+
+Adicionar no arquivo `Configuration.properties` o Email e a senha nos campos:
+ - loginEmail
+ - loginSenha
+
+
 #### Build
 
 Na pasta do projeto digitar no terminal o comando:
