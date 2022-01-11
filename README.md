@@ -26,3 +26,8 @@ Na pasta do projeto digitar no terminal o comando:
 mvn clean install
 ```
 
+#### Próxima etapa
+
+- Adicionar os testes para rodar no firefox
+- Adicionar mais cenários
+- Otimizar o tempo de execução dos teste
