@@ -125,6 +125,6 @@ Feature: Cupom de descontos
 
     Examples:
       | nomeProduto                                 | precoProduto | quantidade  | NomeCupom    | DescricaoDesconto                      | ValorFinal |
-      | [CATEGORIA] Produto com categoria - 1 Nível | R$ 80,00     | 2           | 10OFF        | Desconto: 10 %(frete não incluso)      | R$ 144,00   |
+      | [CATEGORIA] Produto com categoria - 1 Nível | R$ 80,00     | 2           | 10OFF        | Desconto: 10 %(frete não incluso)      | R$ 144,00  |
       | [CATEGORIA] Produto com categoria - 2 Nível | R$ 17,50     | 3           | 30REAIS      | Desconto: R$ 30,00(frete não incluso)  | R$ 22,50   |
 
