@@ -116,7 +116,7 @@ Feature: Cupom de descontos
   Scenario Outline: Adicionar cupom para o valor total da compra
     Given seleciono o produto "<nomeProduto>" com valor de "<precoProduto>"
     And que aciono a opção "Comprar"
-    And no adicione a quantidade de "<quantidade>" para o segundo produto
+    And no campo de quantidade de item do produto adicione "<quantidade>" para o produto
     And no campo cupom de desconto preencho com o cupom válido "<NomeCupom>"
     When clicar no botão "Usar cupom"
     Then o sistema deve apresentar a tag de "<NomeCupom>" no carrinho

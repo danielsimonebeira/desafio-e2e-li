@@ -175,8 +175,8 @@ public class Cupom {
 
     }
 
-    @And("no adicione a quantidade de {string} para o segundo produto")
-    public void no_adicione_a_quantidade_de_para_o_segundo_produto(String quantidade) throws InterruptedException {
+    @And("no campo de quantidade de item do produto adicione {string} para o produto")
+    public void no_campo_de_quantidade_de_item_do_produto_adicione_para_o_produto(String quantidade) {
         compraPage.adicionaQuantidadeProduto(Integer.parseInt(quantidade));
 
     }
