@@ -18,13 +18,14 @@ Adicionar no arquivo `Configuration.properties` o Email e a senha nos campos:
  - loginSenha
 
 
-#### Build
+#### Rodarprojeto
 
 Na pasta do projeto digitar no terminal o comando:
 
 ```
 mvn clean install
 ```
+O sistema irá baixar as dependências do projeto e irá rodar os testes.
 
 #### Próxima etapa
 
