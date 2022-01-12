@@ -99,7 +99,7 @@ Feature: Cupom de descontos
   # - Um cupom com status venvido
   # - Saber qual é a mensagem de vencimento
 # Scenario Outline: Validar  cupom vencido
-#    Given seleciono um produto
+#    Given seleciono o produto "<nomeProduto>" com valor de "<precoProduto>"
 #    And que aciono a opção "Comprar"
 #    And no campo cupom de desconto preencho com o cupom vencido "<NomeCupom>"
 #    When clicar no botão "Usar cupom"
@@ -107,10 +107,10 @@ Feature: Cupom de descontos
 #    And apresentar mensagem de cupom de vencido.
 #
 #    Examples:
-#      | NomeCupom       |
-#      | FRETEVENCIDO    |
-#      | 20OFFVENCIDO    |
-#      | #50REAISVENCIDO |
+#      | nomeProduto                                 | precoProduto | NomeCupom       |
+#      | [CATEGORIA] Produto com categoria - 2 Nível | R$ 17,50     | FRETEVENCIDO    |
+#      | [CATEGORIA] Produto com categoria - 2 Nível | R$ 17,50     | 20OFFVENCIDO    |
+#      | [CATEGORIA] Produto com categoria - 2 Nível | R$ 17,50     | #50REAISVENCIDO |
 
 
   Scenario Outline: Adicionar cupom para o valor total da compra
